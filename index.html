@@ -15,18 +15,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('js', new Date());
 
   gtag('config', 'G-3TJC5JDBYE');
-</script>
-    <title>Simple Form</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
-        #thank-you {
-            display: none;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -34,29 +23,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-    <!-- Form Container -->
-    <div id="form-container">
-        <form id="simple-form" onsubmit="handleSubmit(event)">
-            <input type="text" placeholder="Name" required><br><br>
-            <input type="email" placeholder="Email" required><br><br>
-            <textarea placeholder="Your Message" required></textarea><br><br>
-            <button type="submit">Submit</button>
-        </form>
+    <div class="serp-result">
+        <a href="#" class="serp-title">Example Title for a Search Result</a>
+        <div class="serp-url">www.example.com</div>
+        <div class="serp-description">
+        This is a brief description of the page, giving a snippet of its content. It’s meant to help users decide if the page is relevant.
+        </div>
     </div>
-
-    <!-- Thank You Container -->
-    <div id="thank-you">
-        <h2>Thank you!</h2>
-        <p>Your submission has been received.</p>
-    </div>
-
-    <script>
-        function handleSubmit(event) {
-            event.preventDefault(); // Prevent form from refreshing the page
-            document.getElementById('form-container').style.display = 'none';
-            document.getElementById('thank-you').style.display = 'block';
-        }
-    </script>
-
 </body>
 </html>
