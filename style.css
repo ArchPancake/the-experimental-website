@@ -1,0 +1,23 @@
+.serp-result {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    max-width: 600px;
+}
+
+.serp-title {
+    color: #1a0dab;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.serp-url {
+    font-size: 14px;
+    color: #006621;
+    margin-top: 5px;
+}
+
+.serp-description {
+    font-size: 13px;
+    color: #4d5156;
+    margin-top: 5px;
+}
